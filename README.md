@@ -2,4 +2,4 @@
 TBD:
 
 1.the known perfermance bottleneck,the sorting operation behaves too heavier on every frame,need to port this on compute shader in gpu driven way.
-2.for maximizing threads occupancy per wavefront,need to lower down intance count by having per-instance holds as many quads as to get best performance .
+2.for maximizing threads occupancy per wavefront,need to lower down instance count by having per-instance holds as many quads as to get best performance .
